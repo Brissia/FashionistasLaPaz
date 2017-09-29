@@ -31,6 +31,8 @@ class ViewController: UIViewController
 
     @IBAction func signIn(_ sender: Any) {
         print("Sign In Presionado")
+        
+        self.view.bounds.origin.y = self.emailTextField.frame.origin.y - 40.0
     }
     
 }
