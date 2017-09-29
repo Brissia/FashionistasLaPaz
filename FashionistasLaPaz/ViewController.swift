@@ -12,6 +12,8 @@ class ViewController: UIViewController
 {
 
     @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     
     override func viewDidLoad()
     {
